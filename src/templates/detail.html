@@ -1,0 +1,16 @@
+{% extends "base.html"  %}
+{% block head_title %}
+        {{ instance.title }} | {{ block.super }}
+    {% endblock head_title %}
+{% block content %}
+    <div class="col-8 offset-2 ">
+        <h1>{{ instance.title }} <small>{{ instance.timestamp }}</small></h1>
+        Title Blog : {{ instance.title }}<br />
+        Content Blog : {{ instance.content | linebreaks }}<br />
+        Updated Blog : {{ instance.updated }}<br />
+        Day Time : {{ instance.dayTime }}<br />
+        Blog ID : {{ instance.id }}<br />
+        <a href="{% url "posts:update" instance.id %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Edit</a>
+    </div>
+<hr />
+{% endblock %}

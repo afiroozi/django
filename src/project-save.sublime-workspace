@@ -4,18 +4,6 @@
 		"selected_items":
 		[
 			[
-				"__",
-				"__unicode__"
-			],
-			[
-				"de",
-				"def\tFunction"
-			],
-			[
-				"au",
-				"auto_row_add"
-			],
-			[
 				"ti",
 				"title\tTag"
 			],
@@ -32,10 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "posts/admin.py",
+			"file": "website/settings.py",
 			"settings":
 			{
-				"buffer_size": 114,
+				"buffer_size": 3119,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -44,16 +32,8 @@
 			"file": "posts/models.py",
 			"settings":
 			{
-				"buffer_size": 422,
+				"buffer_size": 337,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "posts/apps.py",
-			"settings":
-			{
-				"buffer_size": 85,
 				"line_ending": "Windows"
 			}
 		}
@@ -96,12 +76,10 @@
 	"expanded_folders":
 	[
 		"/C/django_workspace/django-newsletter/src",
-		"/C/django_workspace/django-newsletter/src/posts",
 		"/C/django_workspace/django-newsletter/src/website"
 	],
 	"file_history":
 	[
-		"/C/django_workspace/django-newsletter/src/website/settings.py",
 		"/C/django_workspace/ngSrvup/client/src/app/app.component.html",
 		"/C/django_workspace/ngSrvup/client/src/app/video-list/video-list.component.html",
 		"/C/django_workspace/ngSrvup/client/src/app/video-list/video-list.component.ts",
@@ -148,24 +126,54 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "posts/admin.py",
+					"file": "website/settings.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 114,
+						"buffer_size": 3119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								1192,
+								1192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "posts/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
 							]
 						],
 						"settings":
@@ -177,62 +185,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "posts/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 422,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								422,
-								422
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "posts/apps.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 85,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								42
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
